@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Etape2 - Bye') {
+      steps {
+        echo 'Bye Bye'
+      }
+    }
+
   }
 }
